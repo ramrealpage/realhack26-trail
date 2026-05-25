@@ -23,6 +23,13 @@ safe-outputs:
     labels: ["ai-implemented"]
     draft: false
     max: 1
+    allowed-files:
+      - "backend/**"
+      - "frontend/**"
+      - "rules/**"
+      - "simulation/**"
+      - "tests/**"
+      - ".gitignore"
   add-comment:
     max: 1
 timeout-minutes: 20
